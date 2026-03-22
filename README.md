@@ -8,4 +8,4 @@
 
 | 후보자 | 포지션 | 면접일 | 링크 |
 |--------|--------|--------|------|
-| 이승은 | 경영지원 팀장급 | 2026.03.27 (금) | [바로가기](https://withusps-coder.github.io/interview-guides/ablearn/250327.html) |
+| 이** | 경영지원 팀장급 | 2026.03.27 (금) | [바로가기](https://withusps-coder.github.io/interview-guides/ablearn/250327.html) |
