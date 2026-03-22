@@ -171,7 +171,7 @@
     ═══════════════════════════════ */
     .hero {
       background: var(--hero-bg);
-      padding: 56px 24px 64px;
+      padding: 56px 0 64px;
       position: relative; overflow: hidden;
     }
     .hero::before {
@@ -189,7 +189,7 @@
         linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
       background-size: 56px 56px;
     }
-    .hero-inner { position: relative; z-index: 1; max-width: 900px; margin: 0 auto; }
+    .hero-inner { position: relative; z-index: 1; max-width: 900px; margin: 0 auto; padding: 0 24px; }
     .hero-badge {
       display: inline-flex; align-items: center; gap: 8px;
       background: rgba(37,99,235,0.22); border: 1px solid rgba(96,165,250,0.32);
@@ -504,7 +504,8 @@
     @media (max-width: 700px) {
       .stats-grid { grid-template-columns: repeat(2, 1fr); }
       .strategy-grid, .content-grid, .news-grid { grid-template-columns: 1fr; }
-      .hero { padding: 52px 20px 64px; }
+      .hero { padding: 52px 0 64px; }
+      .hero-inner { padding: 0 16px; }
       .contact-card { padding: 36px 24px; }
       .container { padding: 0 16px 60px; }
       .info-block { flex-direction: column; }
