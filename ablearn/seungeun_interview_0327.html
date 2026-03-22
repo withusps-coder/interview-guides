@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="ko" class="theme-light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이승은님 면접 안내 — 에이블런 경영지원 팀장 (3/27)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { interpolate-size: allow-keywords; }
+
+    html.theme-light {
+      --bg: #f5f7fa; --surface: #ffffff; --surface-hover: #f3f4f6;
+      --border: rgba(0,0,0,0.08); --border-strong: rgba(0,0,0,0.12);
+      --text: #111827; --text-secondary: #6b7280; --text-muted: #9ca3af;
+      --accent: #2563eb; --accent-light: #eff6ff; --accent-border: #bfdbfe;
+      --positive: #059669; --negative: #e11d48; --warning: #d97706;
+      --hero-bg: #0f172a; --hero-accent: #60a5fa;
+      --news-bg: #1e293b; --news-border: rgba(255,255,255,0.08);
+      --news-tag: rgba(96,165,250,0.2); --news-tag-text: #93c5fd;
+      --process-done: #059669; --process-current: #2563eb;
+    }
+    html.theme-dark {
+      --bg: #0A0A0A; --surface: #141414; --surface-hover: #1e1e1e;
+      --border: rgba(255,255,255,0.08); --border-strong: rgba(255,255,255,0.14);
+      --text: #f1f5f9; --text-secondary: #94a3b8; --text-muted: #64748b;
+      --accent: #60a5fa; --accent-light: rgba(96,165,250,0.1); --accent-border: rgba(96,165,250,0.3);
+      --positive: #34d399; --negative: #fb7185; --warning: #fbbf24;
+      --hero-bg: #020617; --hero-accent: #93c5fd;
+      --news-bg: #0f172a; --news-border: rgba(255,255,255,0.07);
+      --news-tag: rgba(96,165,250,0.15); --news-tag-text: #7dd3fc;
+      --process-done: #34d399; --process-current: #60a5fa;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', 'Inter', -apple-system, sans-serif;
+      background: var(--bg); color: var(--text);
+      line-height: 1.7; -webkit-font-smoothing: antialiased;
+      transition: background 0.3s, color 0.3s; font-size: 15px;
+    }
+    h1 { font-size: 2.5rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; }
+    h2 { font-size: 2rem; font-weight: 700; letter-spacing: -0.025em; line-height: 1.15; }
+    h3 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.02em; }
+
+    .container { max-width: 900px; margin: 0 auto; padding: 0 24px 80px; }
+    section { margin-bottom: 80px; }
+
+    /* CARD */
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 16px; padding: 28px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.05);
+      transition: box-shadow 0.2s;
+    }
+    .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+
+    /* SECTION TITLE */
+    .section-title {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 1.4rem; font-weight: 800; color: var(--text);
+      margin-bottom: 20px; letter-spacing: -0.025em;
+    }
+    .section-title svg { width: 24px; height: 24px; color: var(--accent); flex-shrink: 0; }
+    .section-title img { height: 28px; width: auto; object-fit: contain; margin-top: -2px; }
+
+    /* LIST HEADER */
+    .list-header {
+      font-size: 1rem; font-weight: 700; color: var(--text-secondary);
+      margin-bottom: 14px; padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    .list-header.accent { color: var(--accent); }
+
+    /* CHECK LIST */
+    .check-list { list-style: none; }
+    .check-list li {
+      display: flex; align-items: flex-start; gap: 12px;
+      padding: 10px 0; border-bottom: 1px solid var(--border);
+      font-size: 0.975rem; line-height: 1.65; color: var(--text);
+    }
+    .check-list li:last-child { border-bottom: none; }
+    .check-list li::before {
+      content: ''; min-width: 20px; width: 20px; height: 20px;
+      border-radius: 50%; margin-top: 2px; flex-shrink: 0;
+      background: var(--accent-light);
+      border: 1.5px solid var(--accent-border);
+      background-image: url("data:image/svg+xml,%3Csvg width='12' height='12' viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 6l3 3 5-5' stroke='%232563eb' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: center;
+    }
+    html.theme-dark .check-list li::before {
+      background-image: url("data:image/svg+xml,%3Csvg width='12' height='12' viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 6l3 3 5-5' stroke='%2393c5fd' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    }
+
+    /* BULLET LIST */
+    .bullet-list { list-style: none; }
+    .bullet-list li {
+      display: flex; align-items: flex-start; gap: 10px;
+      padding: 8px 0; font-size: 0.975rem;
+      line-height: 1.65; color: var(--text);
+      border-bottom: 1px solid var(--border);
+    }
+    .bullet-list li:last-child { border-bottom: none; }
+    .bullet-list li::before { content: '—'; color: var(--text-muted); flex-shrink: 0; margin-top: 1px; }
+
+    /* ANIMATIONS */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .animate { animation: fadeInUp 0.6s ease-out both; }
+    .animate.delay-1 { animation-delay: 0.08s; }
+    .animate.delay-2 { animation-delay: 0.16s; }
+    .animate.delay-3 { animation-delay: 0.24s; }
+    .animate.delay-4 { animation-delay: 0.32s; }
+    .animate.delay-5 { animation-delay: 0.40s; }
+
+    .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+      .reveal { opacity: 1; transform: none; }
+    }
+    @media (max-width: 375px) { body { overflow-x: hidden; } }
+    @media print {
+      body { background: white !important; color: black !important; }
+      .viz-menu { display: none !important; }
+      .reveal { opacity: 1 !important; transform: none !important; }
+      .card { break-inside: avoid; box-shadow: none !important; border: 1px solid #ddd; }
+      * { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+    }
+
+    /* MENU */
+    .viz-menu { position: fixed; top: 16px; right: 16px; z-index: 9999; }
+    .viz-menu-toggle {
+      width: 44px; height: 44px; border-radius: 12px;
+      background: var(--surface); border: 1px solid var(--border);
+      color: var(--text); cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: all 0.2s;
+    }
+    .viz-menu-toggle:hover { background: var(--surface-hover); }
+    .viz-menu-dropdown {
+      position: absolute; top: 52px; right: 0; min-width: 200px;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 12px; padding: 8px;
+      opacity: 0; visibility: hidden; transform: translateY(-8px);
+      transition: all 0.2s; box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+    .viz-menu-dropdown.open { opacity: 1; visibility: visible; transform: translateY(0); }
+    .viz-menu-dropdown button {
+      width: 100%; padding: 10px 14px; border: none; border-radius: 8px;
+      background: transparent; color: var(--text); font-size: 14px;
+      font-family: inherit; cursor: pointer; text-align: left;
+      display: flex; align-items: center; gap: 10px; transition: background 0.15s;
+    }
+    .viz-menu-dropdown button:hover { background: var(--surface-hover); }
+
+    /* SKIP */
+    .skip-to-content {
+      position: absolute; top: -40px; left: 6px;
+      background: var(--accent); color: white; padding: 8px 12px;
+      text-decoration: none; border-radius: 4px; opacity: 0; pointer-events: none; z-index: 10000;
+    }
+    .skip-to-content:focus { top: 6px; opacity: 1; pointer-events: auto; }
+
+    /* ═══════════════════════════════
+       HERO
+    ═══════════════════════════════ */
+    .hero {
+      background: var(--hero-bg);
+      padding: 56px 24px 64px;
+      position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 70% 60% at 0% 50%, rgba(37,99,235,0.2) 0%, transparent 65%),
+        radial-gradient(ellipse 50% 50% at 100% 100%, rgba(139,92,246,0.12) 0%, transparent 60%);
+    }
+    .hero::after {
+      content: '';
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+      background-size: 56px 56px;
+    }
+    .hero-inner { position: relative; z-index: 1; max-width: 900px; margin: 0 auto; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(37,99,235,0.22); border: 1px solid rgba(96,165,250,0.32);
+      border-radius: 100px; padding: 6px 18px;
+      font-size: 13px; font-weight: 600; color: var(--hero-accent);
+      letter-spacing: 0.2px; margin-bottom: 28px;
+    }
+    .hero h1 {
+      color: #f8fafc;
+      font-size: clamp(28px, 5vw, 52px);
+      font-weight: 800; line-height: 1.5;
+      letter-spacing: -0.03em; margin-bottom: 16px; word-break: keep-all;
+    }
+    .hero h1 span { color: var(--hero-accent); }
+    .hero-sub { font-size: 1.15rem; color: rgba(248,250,252,0.6); font-weight: 400; margin-bottom: 48px; }
+    .hero-greeting { font-size: 1.1rem; font-weight: 500; color: rgba(248,250,252,0.75); margin-bottom: 10px; letter-spacing: 0.01em; }
+    .hero-chips { display: flex; flex-wrap: wrap; gap: 10px; }
+    .hero-chip {
+      display: flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px; padding: 10px 16px;
+      font-size: 13.5px; color: rgba(248,250,252,0.78); font-weight: 500;
+    }
+    .hero-chip svg { width: 15px; height: 15px; color: var(--hero-accent); flex-shrink: 0; }
+
+    /* ═══════════════════════════════
+       STATS GRID
+    ═══════════════════════════════ */
+    .stats-grid {
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      gap: 14px; margin-bottom: 80px; margin-top: 40px;
+    }
+    .stat-card { padding: 24px 20px; text-align: center; border-radius: 16px; }
+    .stat-value {
+      font-family: 'Inter', sans-serif;
+      font-size: 2.6rem; font-weight: 800;
+      color: var(--accent); line-height: 1;
+      margin-bottom: 10px; letter-spacing: -0.03em;
+      display: flex; align-items: baseline;
+      justify-content: center; gap: 2px;
+    }
+    /* ★ 분/인 동일 크기 */
+    .stat-num  { font-size: 2.6rem; }
+    .stat-sep  { font-size: 2.6rem; font-weight: 800; }
+    .stat-unit { font-size: 2.6rem; font-weight: 800; }
+    .stat-label { font-size: 12.5px; color: var(--text-secondary); line-height: 1.5; font-weight: 500; }
+
+    /* ═══════════════════════════════
+       COMPANY INFO
+    ═══════════════════════════════ */
+    .content-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .info-block {
+      margin-top: 28px; padding: 24px;
+      background: var(--surface-hover); border-radius: 12px;
+      display: flex; flex-wrap: wrap; gap: 28px;
+    }
+    .info-dl { flex: 1; min-width: 220px; display: flex; flex-direction: column; gap: 0; }
+    .info-dl-row {
+      display: flex; align-items: flex-start; gap: 16px;
+      padding: 11px 0; border-bottom: 1px solid var(--border);
+      font-size: 0.95rem; line-height: 1.6;
+    }
+    .info-dl-row:last-child { border-bottom: none; }
+    .info-dl-key { min-width: 72px; font-weight: 700; color: var(--text-secondary); flex-shrink: 0; }
+    .info-dl-val { color: var(--text); font-weight: 500; }
+    .info-dl-val a { color: var(--accent); text-decoration: none; font-weight: 600; }
+    .info-dl-val a:hover { text-decoration: underline; }
+
+    .pdf-btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 8px; padding: 11px 18px;
+      font-size: 0.9rem; font-weight: 600; color: var(--text);
+      text-decoration: none; margin-top: 16px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      transition: box-shadow 0.15s, transform 0.15s;
+    }
+    .pdf-btn:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); transform: translateY(-1px); }
+    .pdf-btn svg { width: 18px; height: 18px; color: var(--accent); }
+
+    .jd-link-box {
+      display: flex; align-items: center; gap: 12px;
+      background: var(--accent-light); border: 1px solid var(--accent-border);
+      border-radius: 12px; padding: 16px 20px; margin-top: 14px;
+      text-decoration: none; color: var(--text);
+      transition: box-shadow 0.15s;
+    }
+    .jd-link-box:hover { box-shadow: 0 4px 16px rgba(37,99,235,0.12); }
+    .jd-link-box svg { width: 20px; height: 20px; color: var(--accent); flex-shrink: 0; }
+    .jd-link-box-body .jd-link-label { font-size: 11.5px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; font-family: 'Inter', sans-serif; }
+    .jd-link-box-body .jd-link-title { font-size: 14px; font-weight: 700; color: var(--text); }
+    .jd-link-arrow { margin-left: auto; color: var(--accent); font-size: 18px; }
+
+    /* ═══════════════════════════════
+       NEWS GRID
+    ═══════════════════════════════ */
+    .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .news-card {
+      background: var(--news-bg); border: 1px solid var(--news-border);
+      border-radius: 14px; padding: 22px 20px;
+      text-decoration: none; color: #f1f5f9;
+      display: flex; flex-direction: column; justify-content: space-between; gap: 16px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .news-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.25); }
+    .news-tag {
+      display: inline-block; font-size: 11px; font-weight: 700;
+      background: var(--news-tag); color: var(--news-tag-text);
+      padding: 3px 10px; border-radius: 100px;
+      margin-bottom: 10px; letter-spacing: 0.3px; font-family: 'Inter', sans-serif;
+    }
+    .news-text { font-size: 13.5px; font-weight: 600; line-height: 1.6; color: rgba(241,245,249,0.88); word-break: keep-all; }
+    .news-link { font-size: 12.5px; color: var(--hero-accent); font-weight: 600; }
+
+    /* ═══════════════════════════════
+       LOCATION
+    ═══════════════════════════════ */
+    .loc-row {
+      display: flex; gap: 14px; align-items: flex-start;
+      padding: 16px 0; border-bottom: 1px solid var(--border);
+    }
+    .loc-row:last-child { border-bottom: none; }
+    .loc-icon-wrap {
+      width: 38px; height: 38px; border-radius: 10px;
+      background: var(--accent-light); border: 1px solid var(--accent-border);
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .loc-icon-wrap svg { width: 18px; height: 18px; color: var(--accent); }
+    .loc-label { font-size: 0.975rem; font-weight: 700; color: var(--text-secondary); margin-bottom: 4px; }
+    .loc-val { font-size: 0.975rem; font-weight: 500; color: var(--text); line-height: 1.6; }
+    .loc-sub { font-size: 0.975rem; color: var(--text-secondary); margin-top: 2px; }
+
+    .alert-strip {
+      display: flex; align-items: flex-start; gap: 10px;
+      background: rgba(245,158,11,0.07); border: 1px solid rgba(245,158,11,0.22);
+      border-radius: 10px; padding: 12px 16px;
+      font-size: 13px; line-height: 1.6; margin-top: 16px;
+    }
+    html.theme-light .alert-strip { color: #92400e; }
+    html.theme-dark .alert-strip { color: #fbbf24; background: rgba(245,158,11,0.1); }
+    .map-btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #03c75a; color: white; border-radius: 10px;
+      padding: 11px 20px; font-size: 13.5px; font-weight: 700;
+      text-decoration: none; margin-top: 20px; transition: opacity 0.15s;
+    }
+    .map-btn:hover { opacity: 0.88; }
+
+    /* ═══════════════════════════════
+       VISIT / DETAILS
+    ═══════════════════════════════ */
+    details {
+      border: 1px solid var(--border); border-radius: 12px;
+      overflow: hidden; margin-bottom: 12px;
+    }
+    details:last-child { margin-bottom: 0; }
+    details summary {
+      cursor: pointer; list-style: none; padding: 16px 20px;
+      font-size: 0.975rem; font-weight: 700; color: var(--text);
+      display: flex; align-items: center; justify-content: space-between;
+      background: var(--surface); user-select: none; transition: background 0.15s;
+    }
+    details summary::-webkit-details-marker { display: none; }
+    details summary:hover { background: var(--surface-hover); }
+    details summary::after { content: '﹢'; font-size: 18px; font-weight: 400; color: var(--text-secondary); }
+    details[open] summary::after { content: '－'; }
+    ::details-content { transition: block-size 0.3s ease, opacity 0.3s ease; block-size: 0; opacity: 0; overflow: hidden; }
+    details[open]::details-content { block-size: auto; opacity: 1; }
+    .details-body { padding: 16px 20px 20px; border-top: 1px solid var(--border); background: var(--surface); }
+
+    .contact-highlight {
+      background: var(--accent-light); border: 1px solid var(--accent-border);
+      border-radius: 12px; overflow: hidden;
+    }
+    .contact-highlight-row {
+      display: flex; align-items: center; gap: 14px;
+      padding: 14px 20px; border-bottom: 1px solid var(--accent-border);
+      font-size: 0.975rem; color: var(--text);
+    }
+    .contact-highlight-row:last-child { border-bottom: none; }
+    .contact-highlight-row svg { width: 17px; height: 17px; color: var(--accent); flex-shrink: 0; }
+    .contact-highlight-row .ck { font-weight: 700; min-width: 52px; color: var(--text-secondary); }
+    .phone-accent { font-family: 'Inter', sans-serif; font-size: 22px; font-weight: 800; color: var(--accent); letter-spacing: 0.03em; display: block; margin: 8px 0 4px; }
+
+    /* ═══════════════════════════════
+       ADVICE LIST
+    ═══════════════════════════════ */
+    .advice-list { display: flex; flex-direction: column; gap: 12px; }
+    .advice-item {
+      display: flex; gap: 18px; align-items: flex-start;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 22px 24px;
+      transition: box-shadow 0.2s;
+    }
+    .advice-item:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.07); }
+    .advice-num {
+      flex-shrink: 0;
+      width: 32px; height: 32px; border-radius: 50%;
+      background: var(--accent-light); border: 1.5px solid var(--accent-border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px; font-weight: 800; color: var(--accent);
+      margin-top: 2px;
+    }
+    .advice-body { flex: 1; }
+    .advice-title { font-size: 1.05rem; font-weight: 800; color: var(--text); margin-bottom: 7px; letter-spacing: -0.01em; }
+    .advice-desc { font-size: 0.975rem; color: var(--text-secondary); line-height: 1.75; }
+
+    /* ═══════════════════════════════
+       CHECKLIST
+    ═══════════════════════════════ */
+    .checklist { display: flex; flex-direction: column; gap: 8px; }
+    .check-item {
+      display: flex; align-items: center; gap: 14px;
+      padding: 14px 18px; background: var(--surface);
+      border: 1px solid var(--border); border-radius: 12px;
+      font-size: 0.975rem; color: var(--text);
+      cursor: pointer; user-select: none;
+      transition: background 0.15s, opacity 0.2s;
+    }
+    .check-item:hover { background: var(--surface-hover); }
+    .check-box {
+      width: 22px; height: 22px; min-width: 22px;
+      border: 2px solid var(--border); border-radius: 6px;
+      background: var(--surface); display: flex; align-items: center; justify-content: center;
+      transition: all 0.2s;
+    }
+    .check-item.done .check-box { background: var(--accent); border-color: var(--accent); }
+    .check-item.done .check-box::after { content: '✓'; font-size: 12px; color: white; font-weight: 700; }
+    .check-item.done { opacity: 0.45; }
+
+    /* ═══════════════════════════════
+       PROCESS TIMELINE
+    ═══════════════════════════════ */
+    .process-container {
+      display: flex; align-items: flex-start; justify-content: center;
+      gap: 0;
+    }
+    .process-item {
+      display: flex; flex-direction: column; align-items: center;
+      gap: 10px; flex: 1; text-align: center;
+    }
+    .process-number {
+      width: 44px; height: 44px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 700;
+      background: var(--surface-hover); color: var(--text-secondary);
+      border: 2px solid var(--border);
+    }
+    .process-item.done .process-number { background: var(--process-done); border-color: var(--process-done); color: white; }
+    .process-item.done .process-number span { display: none; }
+    .process-item.done .process-number::after { content: '✓'; }
+    .process-item.current .process-number { background: var(--process-current); border-color: var(--process-current); color: white; box-shadow: 0 0 0 5px rgba(37,99,235,0.18); }
+    .process-title { font-size: 12.5px; font-weight: 700; color: var(--text-secondary); }
+    .process-item.done .process-title { color: var(--process-done); }
+    .process-item.current .process-title { color: var(--process-current); }
+    .process-tag { font-size: 10.5px; font-weight: 700; background: var(--process-current); color: white; padding: 2px 10px; border-radius: 100px; }
+    .process-arrow { color: var(--border); display: flex; align-items: center; padding-bottom: 34px; flex-shrink: 0; }
+    .process-arrow svg { width: 20px; height: 20px; }
+    .process-note { text-align: center; font-size: 13px; color: var(--text-secondary); padding-top: 24px; border-top: 1px solid var(--border); margin-top: 24px; }
+
+    /* ═══════════════════════════════
+       CONTACT CTA
+    ═══════════════════════════════ */
+    .contact-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 20px; padding: 48px 40px; text-align: center;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    }
+    .contact-card h2 { font-size: 1.55rem; font-weight: 800; color: var(--text); margin-bottom: 10px; letter-spacing: -0.025em; word-break: keep-all; }
+    .contact-card > p { font-size: 15px; color: var(--text-secondary); line-height: 1.7; }
+    .cta-divider { border: none; border-top: 1px solid var(--border); margin: 36px 0; }
+    .cta-person { font-size: 1.35rem; font-weight: 800; color: var(--text); margin-bottom: 20px; letter-spacing: -0.02em; }
+    .contact-info-rows {
+      display: flex; flex-direction: column; gap: 0;
+      max-width: 380px; margin: 0 auto;
+    }
+    .info-row-item {
+      display: flex; align-items: center; justify-content: center;
+      gap: 12px; padding: 13px 0; border-bottom: 1px solid var(--border);
+      font-size: 14.5px; color: var(--text);
+    }
+    .info-row-item:last-child { border-bottom: none; }
+    .info-row-item svg { width: 18px; height: 18px; color: var(--text-secondary); flex-shrink: 0; }
+    .info-row-item a { color: var(--accent); text-decoration: none; font-weight: 600; font-size: 0.975rem; }
+    .info-row-item a:hover { text-decoration: underline; }
+    .phone-big { font-family: 'Inter', sans-serif; font-size: 1.3rem; font-weight: 800; color: var(--text); letter-spacing: 0.02em; }
+
+    .visit-contact-box {
+      margin-top: 36px; padding-top: 32px; border-top: 1px solid var(--border);
+    }
+    .visit-contact-label {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.6px; color: var(--text-secondary);
+      margin-bottom: 14px; font-family: 'Inter', sans-serif;
+    }
+    .visit-contact-card {
+      display: inline-flex; align-items: center; gap: 16px;
+      background: var(--surface-hover); border: 1px solid var(--border);
+      border-radius: 12px; padding: 14px 20px;
+    }
+    .visit-avatar {
+      width: 40px; height: 40px; border-radius: 50%;
+      background: var(--accent); color: white;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px; font-weight: 700; flex-shrink: 0;
+    }
+    .visit-name { font-size: 14.5px; font-weight: 700; color: var(--text); }
+    .visit-tel { font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 700; color: var(--accent); margin-top: 2px; }
+
+    /* RESPONSIVE */
+    @media (max-width: 700px) {
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .strategy-grid, .content-grid, .news-grid { grid-template-columns: 1fr; }
+      .hero { padding: 52px 20px 64px; }
+      .contact-card { padding: 36px 24px; }
+      .container { padding: 0 16px 60px; }
+      .info-block { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">본문 바로가기</a>
+
+  <div class="viz-menu">
+    <button class="viz-menu-toggle" onclick="toggleMenu()" aria-label="메뉴">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="5" x2="17" y2="5"/><line x1="3" y1="10" x2="17" y2="10"/><line x1="3" y1="15" x2="17" y2="15"/>
+      </svg>
+    </button>
+    <div class="viz-menu-dropdown" id="vizMenuDropdown">
+      <button onclick="cycleTheme()"><span id="themeIcon">☀️</span><span id="themeLabel">라이트</span></button>
+      <button onclick="downloadImage()"><span>📥</span><span>PNG 저장</span></button>
+      <button onclick="window.print()"><span>🖨️</span><span>인쇄 / PDF</span></button>
+    </div>
+  </div>
+
+  <!-- ① HERO -->
+  <div class="hero animate" role="banner">
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+        에이블런 · 경영지원 팀장급 포지션 · 대면 인터뷰
+      </div>
+      <p class="hero-greeting">이승은님께 드리는</p>
+      <h1>에이블런 경영지원 팀장급 포지션<br><span>대면 인터뷰 안내</span></h1>
+      <p class="hero-sub">스텝업파트너스 금문섭 드림</p>
+    </div>
+  </div>
+
+  <main id="main-content" role="main">
+  <div class="container">
+
+    <!-- ② STATS -->
+    <section class="stats-grid animate delay-2" aria-label="면접 핵심 정보">
+      <div class="card stat-card">
+        <div class="stat-value">
+          <span class="stat-num">3</span><span class="stat-sep">/</span><span class="stat-unit">27</span>
+        </div>
+        <div class="stat-label">면접 일자<br>(금요일)</div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-value">
+          <span class="stat-num">2</span><span class="stat-sep">:</span><span class="stat-unit">30</span>
+        </div>
+        <div class="stat-label">면접 시작 시각<br>(오후)</div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-value">
+          <span class="stat-num">30</span><span class="stat-unit">분</span>
+        </div>
+        <div class="stat-label">소요 시간</div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-value">
+          <span class="stat-num">2</span><span class="stat-unit">인</span>
+        </div>
+        <div class="stat-label">면접관<br>(대표 · 부사장)</div>
+      </div>
+    </section>
+
+    <!-- ③ 에이블런 소개 -->
+    <section class="reveal" aria-label="에이블런 소개">
+      <h2 class="section-title">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-2 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+        에이블런(ABLEARN) 소개
+      </h2>
+      <div class="card">
+        <div class="content-grid">
+          <ul class="check-list" style="margin-bottom:0">
+            <li><strong>국내 최고의 AI 전문가 Pool 보유</strong></li>
+            <li><strong>비전공자도 쉽게 배우는 AI·데이터 교육</strong></li>
+          </ul>
+          <ul class="check-list" style="margin-bottom:0">
+            <li><strong>노코드 기반 데이터 분석으로 문제 해결</strong></li>
+            <li><strong>차별화된 B2B 맞춤형 AI 교육 솔루션 제공</strong></li>
+          </ul>
+        </div>
+        <div class="info-block">
+          <div class="info-dl">
+            <div class="info-dl-row"><span class="info-dl-key">기업명</span><span class="info-dl-val">에이블런 (ABLEARN)</span></div>
+            <div class="info-dl-row"><span class="info-dl-key">임직원 수</span><span class="info-dl-val">약 30명</span></div>
+            <div class="info-dl-row"><span class="info-dl-key">본사 위치</span><span class="info-dl-val">서울 마포구 성암로 330, DMC첨단산업센터 B동 315호</span></div>
+            <div class="info-dl-row"><span class="info-dl-key">홈페이지</span><span class="info-dl-val"><a href="https://ablearn.kr/" target="_blank" rel="noopener">ablearn.kr →</a></span></div>
+          </div>
+        </div>
+        <a href="https://withusps-coder.github.io/job-postings/ablearn-admin/ablearn-company-profile.pdf" target="_blank" rel="noopener" class="pdf-btn">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          에이블런 회사소개서 보기 / 다운로드
+        </a>
+        <a href="https://withusps-coder.github.io/job-postings/ablearn-admin/index.html" target="_blank" rel="noopener" class="jd-link-box">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+          <div class="jd-link-box-body">
+            <div class="jd-link-label">포지션 상세 JD</div>
+            <div class="jd-link-title">에이블런 경영지원(회계·인사총무) 팀장 채용공고 보기</div>
+          </div>
+          <span class="jd-link-arrow">→</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 뉴스 -->
+    <section class="reveal" style="margin-top:-40px" aria-label="에이블런 뉴스">
+      <div class="news-grid">
+        <a href="https://www.epnc.co.kr/news/articleView.html?idxno=327457" target="_blank" rel="noopener" class="news-card">
+          <div>
+            <span class="news-tag">2026 최신</span>
+            <p class="news-text">교육을 넘어 'AX(AI 전환) 파트너' 선언,<br>AI 중심 업무 재설계 본격화</p>
+          </div>
+          <span class="news-link">기사 보기 →</span>
+        </a>
+        <a href="https://jmagazine.joins.com/forbes/view/340865" target="_blank" rel="noopener" class="news-card">
+          <div>
+            <span class="news-tag">2025 수상</span>
+            <p class="news-text">포브스코리아 선정<br>'소비자 선정 최고의 브랜드 대상' AI·DX 교육 부문</p>
+          </div>
+          <span class="news-link">기사 보기 →</span>
+        </a>
+        <a href="https://www.hansbiz.co.kr/news/articleView.html?idxno=823096" target="_blank" rel="noopener" class="news-card">
+          <div>
+            <span class="news-tag">성장 지표</span>
+            <p class="news-text">기업 AI 교육 문의 전년 대비 463% 급증,<br>최근 3년 연평균 대비 18배 성장</p>
+          </div>
+          <span class="news-link">기사 보기 →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ④ 일정 및 장소 -->
+    <section class="reveal" aria-label="일정 및 장소">
+      <h2 class="section-title">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        일정 및 장소
+      </h2>
+      <div class="card">
+        <div class="loc-row">
+          <div class="loc-icon-wrap"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+          <div>
+            <div class="loc-label">면접 일시</div>
+            <div class="loc-val">2026년 3월 27일(금) 오후 2시 30분</div>
+            <div class="loc-sub">경영진 면접 — 대표, 부사장 참석 / 소요 시간 약 30분 &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/ablearnjina/" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600;text-decoration:none;">에이블런 박진아 대표 LinkedIn →</a></div>
+            <div class="loc-sub">면접 시작 10분 전까지 도착해 주세요.</div>
+          </div>
+        </div>
+        <div class="loc-row">
+          <div class="loc-icon-wrap"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div>
+            <div class="loc-label">장소</div>
+            <div class="loc-val">서울특별시 마포구 성암로 330 DMC첨단산업센터 B동 315호</div>
+          </div>
+        </div>
+        <a href="https://naver.me/xY4y8vm8" target="_blank" rel="noopener" class="map-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          네이버 지도로 길 찾기
+        </a>
+      </div>
+    </section>
+
+    <!-- ⑤ 방문 안내 -->
+    <section class="reveal" aria-label="방문 안내">
+      <h2 class="section-title">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        방문 안내
+      </h2>
+      <details open>
+        <summary>도착 후 절차 및 컨택 포인트</summary>
+        <div class="details-body">
+          <ul class="check-list" style="margin-bottom:16px">
+            <li>B동 315호 도착 후, 아래 담당자에게 전화하시거나 사무실 초인종을 눌러 주세요.</li>
+            <li>면접 시작 전 10분간의 개인 과제가 있으며, 현장에서 상세하게 안내드리겠습니다.</li>
+          </ul>
+          <div class="contact-highlight">
+            <div class="contact-highlight-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <span class="ck">담당자</span>
+              <span><strong>이주영 매니저</strong> · 에이블런</span>
+            </div>
+            <div class="contact-highlight-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-.54a2 2 0 012.11.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              <span class="ck">연락처</span>
+              <span style="font-size:0.95rem;font-weight:600;color:var(--text);">010-9367-1783</span>
+            </div>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <!-- ⑥ 면접 준비 가이드 -->
+    <section class="reveal" aria-label="면접 준비 가이드">
+      <h2 class="section-title">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7l2 2 4-4"/></svg>
+        면접 전략 및 준비 가이드
+      </h2>
+      <div class="advice-list">
+
+        <div class="advice-item">
+          <div class="advice-num">①</div>
+          <div class="advice-body">
+            <div class="advice-title">말의 구조보다 진정성이 먼저입니다.</div>
+            <div class="advice-desc">경영진은 잘 정돈된 답변보다 솔직하고 일관된 사람에게 신뢰를 느낍니다.<br>준비한 답변을 꺼내는 면접이 아니라, 본인의 경험과 생각을 자연스럽게 대화하는 자리로 접근해 보세요.</div>
+          </div>
+        </div>
+
+        <div class="advice-item">
+          <div class="advice-num">②</div>
+          <div class="advice-body">
+            <div class="advice-title">에이블런을 선택한 이유가 설득력 있어야 합니다.</div>
+            <div class="advice-desc">대표 입장에서 가장 궁금한 건 "왜 우리 회사인가" 입니다.<br>성장하는 회사, 좋은 복지 같은 일반적인 답은 인상을 남기지 못합니다.<br>에이블런이 어떤 회사인지 사전에 충분히 파악하고, 본인의 커리어 방향과 진심으로 연결되는 언어로 준비해 보세요.</div>
+          </div>
+        </div>
+
+        <div class="advice-item">
+          <div class="advice-num">③</div>
+          <div class="advice-body">
+            <div class="advice-title">팀장급 역할에 대한 본인의 정의를 준비하세요.</div>
+            <div class="advice-desc">이 포지션은 소규모 조직의 팀장급입니다. 거창한 리더십 경험이 없어도 됩니다.<br>다만 "나는 팀장급으로서 어떻게 일하겠다"는 본인만의 관점이 있어야 합니다.<br>실무도 직접 하면서 조직을 어떻게 챙길 것인지, 구체적인 그림을 그려 보세요.</div>
+          </div>
+        </div>
+
+        <div class="advice-item">
+          <div class="advice-num">④</div>
+          <div class="advice-body">
+            <div class="advice-title">경력의 연결고리를 본인 입으로 설명할 수 있어야 합니다.</div>
+            <div class="advice-desc">세무법인 → 일반기업 → 현재까지의 이직 흐름이 성장의 서사로 읽혀야 합니다.<br>각 이직이 왜 필요했고, 무엇을 얻었는지 본인 언어로 정리해 보세요.<br>경영진은 이 흐름에서 다음 이직(에이블런)이 자연스러운지를 봅니다.</div>
+          </div>
+        </div>
+
+        <div class="advice-item">
+          <div class="advice-num">⑤</div>
+          <div class="advice-body">
+            <div class="advice-title">질문할 준비를 해 보세요.</div>
+            <div class="advice-desc">면접 말미에 후보자가 회사에 던지는 질문은 관심도와 얼마나 진지하게 준비했는지를 동시에 보여주는 기회입니다.<br>단순한 복지나 업무 조건 확인이 아니라, 에이블런의 방향성이나 이 팀장급 포지션이 앞으로 어떤 역할로<br>성장하길 기대하는지를 묻는 질문이 좋은 인상을 남깁니다.</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ⑦ 체크리스트 -->
+    <section class="reveal" aria-label="체크리스트">
+      <h2 class="section-title">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7l2 2 4-4"/></svg>
+        면접 전 체크리스트
+      </h2>
+      <div class="checklist" role="list">
+        <div class="check-item" role="listitem" tabindex="0" onclick="this.classList.toggle('done')" onkeydown="if(event.key==='Enter'||event.key===' ')this.classList.toggle('done')">
+          <div class="check-box" aria-hidden="true"></div>
+          JD와 이력서의 매칭 포인트 재확인
+        </div>
+        <div class="check-item" role="listitem" tabindex="0" onclick="this.classList.toggle('done')" onkeydown="if(event.key==='Enter'||event.key===' ')this.classList.toggle('done')">
+          <div class="check-box" aria-hidden="true"></div>
+          이력서 리뷰를 통한 실무 경험 정리
+        </div>
+        <div class="check-item" role="listitem" tabindex="0" onclick="this.classList.toggle('done')" onkeydown="if(event.key==='Enter'||event.key===' ')this.classList.toggle('done')">
+          <div class="check-box" aria-hidden="true"></div>
+          에이블런 회사소개서 및 뉴스 기사 읽기
+        </div>
+        <div class="check-item" role="listitem" tabindex="0" onclick="this.classList.toggle('done')" onkeydown="if(event.key==='Enter'||event.key===' ')this.classList.toggle('done')">
+          <div class="check-box" aria-hidden="true"></div>
+          이직 사유와 에이블런을 선택한 이유 정리
+        </div>
+        <div class="check-item" role="listitem" tabindex="0" onclick="this.classList.toggle('done')" onkeydown="if(event.key==='Enter'||event.key===' ')this.classList.toggle('done')">
+          <div class="check-box" aria-hidden="true"></div>
+          이동 경로 확인 및 10분 전 도착 계획 수립
+        </div>
+        <div class="check-item" role="listitem" tabindex="0" onclick="this.classList.toggle('done')" onkeydown="if(event.key==='Enter'||event.key===' ')this.classList.toggle('done')">
+          <div class="check-box" aria-hidden="true"></div>
+          복장 자유 (단정하면서도 편안한 복장으로 준비하시길 바랍니다.)
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ⑨ CONTACT CTA -->
+    <section class="reveal" aria-label="담당 헤드헌터">
+      <div class="contact-card">
+        <p style="font-size:1.55rem;font-weight:800;color:var(--text);letter-spacing:-0.025em;margin-bottom:10px;word-break:keep-all;">궁금한 점은 언제든지 편하게 연락 주세요.</p>
+        <hr class="cta-divider">
+        <div class="cta-person">스텝업파트너스 헤드헌터 금문섭</div>
+        <div class="contact-info-rows">
+          <div class="info-row-item">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            <span class="phone-big">010-2793-3899</span>
+          </div>
+          <div class="info-row-item">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            <a href="mailto:kms@step-up.kr">kms@step-up.kr</a>
+          </div>
+          <div class="info-row-item">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            <a href="https://www.linkedin.com/in/majesty89/" target="_blank" rel="noopener">LinkedIn Profile →</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+  </main>
+
+  <script>
+    function toggleMenu() {
+      var d = document.getElementById('vizMenuDropdown');
+      if (d) d.classList.toggle('open');
+    }
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.viz-menu')) {
+        var d = document.getElementById('vizMenuDropdown');
+        if (d) d.classList.remove('open');
+      }
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        var d = document.getElementById('vizMenuDropdown');
+        if (d) d.classList.remove('open');
+      }
+    });
+
+    var currentTheme = localStorage.getItem('viz-theme') || 'light';
+    function applyTheme(t) {
+      document.documentElement.className = 'theme-' + t;
+      var icon = document.getElementById('themeIcon');
+      var label = document.getElementById('themeLabel');
+      if (icon)  icon.textContent  = t === 'dark' ? '🌙' : '☀️';
+      if (label) label.textContent = t === 'dark' ? '다크' : '라이트';
+      localStorage.setItem('viz-theme', t);
+      currentTheme = t;
+    }
+    function cycleTheme() { applyTheme(currentTheme === 'dark' ? 'light' : 'dark'); }
+    applyTheme(currentTheme);
+
+    document.querySelectorAll('[data-reveal]').forEach(function(el) { el.classList.add('reveal'); });
+    var ro = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e) {
+        if (e.isIntersecting) { e.target.classList.add('visible'); ro.unobserve(e.target); }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(function(el) { ro.observe(el); });
+
+    async function downloadImage() {
+      var menu = document.querySelector('.viz-menu');
+      menu.style.display = 'none';
+      try {
+        var url = await htmlToImage.toPng(document.body, {
+          quality: 1, pixelRatio: 2,
+          filter: function(n) { return !n.classList || !n.classList.contains('viz-menu'); }
+        });
+        var a = document.createElement('a');
+        a.href = url; a.download = 'seungeun-interview-0327.png'; a.click();
+      } catch(e) { console.error('Download failed:', e); }
+      menu.style.display = '';
+    }
+  </script>
+</body>
+</html>
