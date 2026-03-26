@@ -17,9 +17,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## README.md 표 형식
 
 ```markdown
-| 후보자 | 포지션 | 면접일 | 링크 |
-|--------|--------|--------|------|
-| 이름 | 포지션명 | YYYY.MM.DD (요일) | [바로가기](https://withusps-coder.github.io/interview-guides/{폴더}/{파일명}.html) |
+| 포지션 | 면접일 | 링크 |
+|--------|--------|------|
+| 포지션명 | YYYY.MM.DD (요일) | [바로가기](https://withusps-coder.github.io/interview-guides/{폴더}/{파일명}.html) |
 ```
 
 ## HTML 페이지 구조
@@ -55,7 +55,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - 박스 아래 간격(`.pin-digits margin-bottom`): `40px`
 
 ### README 기재 시
-- 후보자 이름은 `성**` 형식으로 블라인드 처리
+- 후보자 이름은 기재하지 않는다 (컬럼 없음)
 - PIN은 README에 기재하지 않고 후보자에게 별도 전달
 
 ## 배포
