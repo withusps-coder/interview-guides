@@ -16,3 +16,4 @@
 | 포지션 | 면접일 | 링크 |
 |--------|--------|------|
 | 경영지원본부장 비서 (1차) | 2026.04.06 (월) | [바로가기](https://withusps-coder.github.io/interview-guides/mario/260406.html) |
+| 임원(오너)비서 (2차) | 2026.04.14 (화) | [바로가기](https://withusps-coder.github.io/interview-guides/mario/260414.html) |
